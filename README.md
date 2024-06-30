@@ -1,4 +1,4 @@
-# Goes - A single library, copy of ByteDance go pool
+# Goes - 复制自字节跳动的gopkg仓库的gopool，独立仓库
 
 ## Introduction
 
@@ -15,7 +15,11 @@ It is an alternative to the `go` keyword.
 
 ## QuickStart
 
-Just replace your `go func(){...}` with `gopool.Go(func(){...})`.
+```shell
+go get -u github.com/bytepowered/goes
+```
+
+Just replace your `go func(){...}` with `goes.Go(func(){...})`.
 
 old:
 ```go
